@@ -1,0 +1,40 @@
+dataset/
+
+# 输出图片和结果
+*.jpg
+*.png
+output.jpg
+output_*.jpg
+
+# 模型文件（如果你不想提交训练好的模型，也可以取消注释）
+# *.pth
+
+# 训练曲线图
+training_curves*.png
+
+# VS Code 配置
+.vscode/
+*.code-workspace
+
+# Python 缓存文件
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# 虚拟环境
+venv/
+env/
+ENV/
+myenv/
+.env
+*.egg-info/
+dist/
+build/
+
+# 系统文件
+.DS_Store
+Thumbs.db
